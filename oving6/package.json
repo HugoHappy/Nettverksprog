@@ -1,0 +1,39 @@
+{
+  "name": "nettverk_oving6",
+  "version": "1.0.0",
+  "description": "Oving 6 i Nettverksprogrammering TDAT2004",
+  "main": "server/server.js",
+  "scripts": {
+    "build": "webpack -w",
+    "start": "nodemon --harmony src/server/server.js",
+    "dev": "webpack-dev-server"
+  },
+  "author": "Kristoffer Aas",
+  "license": "ISC",
+  "devDependencies": {
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.1.2",
+    "scss-loader": "^0.0.1",
+    "source-map-loader": "^0.2.0",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "@angular/common": "^2.4.10",
+    "@angular/compiler": "^2.4.10",
+    "@angular/core": "^2.4.10",
+    "@angular/forms": "^2.4.10",
+    "@angular/http": "^2.4.10",
+    "@angular/platform-browser": "^2.4.10",
+    "@angular/platform-browser-dynamic": "^2.4.10",
+    "@angular/router": "^3.4.10",
+    "body-parser": "^1.17.1",
+    "core.js": "^0.4.2",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.2.0",
+    "zone.js": "0.7.2"
+  }
+}
